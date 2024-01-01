@@ -98,4 +98,39 @@ h2{
     transform: scale(0);
     margin-bottom: 20px;
 }
- 
+@media(max-width:650px ){
+    body{
+        background-color: #000000;
+        color:#fff  ;
+    }
+    .input,#textInput,#click,#reset{
+        width: fit-content;
+    }
+    #repeatedText{
+        width: fit-content
+    }
+    #click,#reset{
+        width:20% ;
+    }
+
+}
+@media (min-width:657px){
+    #repeatedText{
+        width: fit-content;
+        
+    }
+    body{
+        height: 90%;
+    }
+    .input,#textInput{
+        width: 45%;
+       
+    }
+    #click,#reset{
+        height: 5%;
+    }
+    .input,#textInput,#click,#reset{
+        font-size: 1.2rem;
+    }
+
+}
